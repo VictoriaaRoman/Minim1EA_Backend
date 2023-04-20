@@ -15,8 +15,8 @@ router.get("/:idTicket", get_Ticket);
 router.post("/", create_Ticket);
 router.delete("/:idTicket",delete_Ticket);
 router.put("/:idTicket",update_Ticket);
-router.post("/insert", insert_ProductoToTicket)
-router.get("/:idTicket/productos",get_productos_ticket)
+router.post("/insert", insert_ProductoToTicket);
+router.get("/:idTicket/productos",get_productos_ticket);
 
 
 
