@@ -1,18 +1,12 @@
-Proyecto EA Grupo 2
+Grup 2 Exercici tipo 1
+Afegir un gestor de localització de tickets. Es compleix:
 
-Backend con Users, Grupos, Tickets, Productos y RelacionProductoUsuario hechos!
+- Una nova colecció en la base de dades ✅
+- La nova colecció te una relació amb les ja existents localització --> ticket ✅
+- La nova colecció té 3 tipos de dades diferents: String, Number, Object ✅
+- CRUD ✅
+- He creat dos nous components: add-edit-localizacion i list-localizacion. M'hagués agredat afegir un altre component per introduir tickets en una localització pero no he tingut temps ✅
+- Mes de 3 consultes al backend ✅
 
-API completamente funcional a falta de retoques
-
-
-IMPORTANT COMMANDS BEFORE USING VISUAL STUDIO CODE
-
-    tsc --init \
-    npm init -y \
-    npm i express cors dotenv multer mongoose \
-    npm i @types/express @types/cors @types/dotenv @types/multer @types/mongoose -D
-
-Fichero .env
-
-    PORT=3000
-    DB_URI="mongodb://127.0.0.1:27017/EA-DDBB"
+Gràcies, 
+Victòria Roman Garrido.
